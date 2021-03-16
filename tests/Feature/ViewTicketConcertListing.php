@@ -41,6 +41,6 @@ class ViewTicketConcertListing extends TestCase
         $response->assertSee('Laraville');
         $response->assertSee('ON');
         $response->assertSee('17916');
-        $response->assertSee('For tickets, call (555) 555-5555');
+        $response->assertSee('For tickets, call (555) 555-5555') ;
     }
 }
